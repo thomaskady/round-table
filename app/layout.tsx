@@ -1,6 +1,8 @@
 import './globals.css'
 import { Encode_Sans_Expanded } from 'next/font/google'
 
+import Nav from '@/components/Nav'
+
 const encode = Encode_Sans_Expanded({
   weight: ['200', '400', '700', '900'],
   subsets: ['latin']
@@ -18,7 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={encode.className}>{children}</body>
+      <body className={encode.className}>
+        <Nav></Nav>
+        {children}</body>
     </html>
   )
 }
