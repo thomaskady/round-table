@@ -10,7 +10,7 @@ const encode = Encode_Sans_Expanded({
 
 export const metadata = {
   title: 'Round Table',
-  description: 'Connecting parents and children',
+  description: 'Connecting parents and children'
 }
 
 export default function RootLayout({
@@ -22,7 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={encode.className}>
         <Nav></Nav>
-        {children}</body>
+        {children}
+        </body>
     </html>
   )
 }

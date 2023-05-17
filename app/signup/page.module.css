@@ -57,11 +57,18 @@
     font-weight: 700;
     font-size: 30px;
     padding: 10px 30px;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 .button:hover {
     cursor: pointer;
     background-color: #501B53;
     color: white;
+}
+
+.select {
+    border-radius: 20px;
+    border: 2px solid #501B53;
+    padding: 8px;
+    font-size: 20px;
 }
